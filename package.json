@@ -1,0 +1,23 @@
+{
+  "name": "omnistack-11-be-the-hero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ribeirofilipe/omnistack-11-be-the-hero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ribeirofilipe/omnistack-11-be-the-hero/issues"
+  },
+  "homepage": "https://github.com/ribeirofilipe/omnistack-11-be-the-hero#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
