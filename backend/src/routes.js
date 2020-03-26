@@ -8,12 +8,12 @@ const routes = express.Router();
 
 routes.post('/sessions', SessionController.store);
 
-routes.post('/ong', OngController.store);
+routes.post('/ongs', OngController.store);
 routes.get('/ongs', OngController.index);
 
-routes.post('/incident', IncidentController.store);
+routes.post('/incidents', IncidentController.store);
 routes.get('/incidents', IncidentController.index);
-routes.delete('/incident/:id', IncidentController.delete);
+routes.delete('/incidents/:id', IncidentController.delete);
 
 routes.get('/profile', ProfileController.index);
 
